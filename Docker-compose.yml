@@ -1,0 +1,9 @@
+services:
+  devenv:
+    image: devenv:latest
+    container_name: devenv
+    volumes:
+      - /Users/a1000370/Documents/goPrj:/goPrj
+      - /Users/a1000370/Docker:/Docker
+    ports:
+      - "8080:8080"
